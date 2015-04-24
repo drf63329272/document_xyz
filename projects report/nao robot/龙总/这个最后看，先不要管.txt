@@ -1,0 +1,74 @@
+typedef enum JointAngles{
+	HeadYaw,
+	HeadPitch,
+	LShoulderPitch,
+	LShoulderRoll,
+	LElbowYaw,
+	LElbowRoll,
+	RShoulderPitch,
+	RShoulderRoll,
+	RElbowYaw,
+	RElbowRoll,
+	HipYawPitch,
+	LHipRoll,
+	LHipPitch,
+	LKneePitch,
+	RHipRoll,
+	RHipPitch,
+	RKneePitch,
+	LAnklePitch,
+	LAnkleRoll,
+	RAnklePitch,
+	RAnkleRoll,
+	LWristYaw,
+	RWristYaw,
+	LHand,
+	RHand,
+	JOINTANGLES_END
+} JointAngles;
+
+void NaoDancing::GetAngleLimits(){
+	MinAngle[HeadYaw] = D2R(-119.5);//½Ç¶È×ª»»³Éradious
+	MaxAngle[HeadYaw] = D2R(119.5);
+	MinAngle[HeadPitch] = D2R(-38.5);
+	MaxAngle[HeadPitch] = D2R(29.5);
+	MinAngle[RShoulderPitch] = D2R(-119.5);
+	MaxAngle[RShoulderPitch] = D2R(119.5);
+	MinAngle[RShoulderRoll] = D2R(-94.5);
+	MaxAngle[RShoulderRoll] = D2R(-0.5);
+	MinAngle[RElbowRoll] = D2R(0.5);
+	MaxAngle[RElbowRoll] = D2R(89.5);
+	MinAngle[RElbowYaw] = D2R(-119.5);
+	MaxAngle[RElbowYaw] = D2R(119.5);
+	MinAngle[LShoulderPitch] = D2R(-119.5);
+	MaxAngle[LShoulderPitch] = D2R(119.5);
+	MinAngle[LShoulderRoll] = D2R(0.5);
+	MaxAngle[LShoulderRoll] = D2R(94.5);
+	MinAngle[LElbowRoll] = D2R(-89.5);
+	MaxAngle[LElbowRoll] = D2R(-0.5);
+	MinAngle[LElbowYaw] = D2R(-119.5);
+	MaxAngle[LElbowYaw] = D2R(119.5);
+	MinAngle[HipYawPitch] = D2R(-65.6);
+	MaxAngle[HipYawPitch] = D2R(42.4);
+	MinAngle[RHipPitch] = D2R(-101.6);
+	MaxAngle[RHipPitch] = D2R(27.7);
+	MinAngle[LHipPitch] = D2R(-101.6);
+	MaxAngle[LHipPitch] = D2R(27.7);
+	MinAngle[LHipRoll] = D2R(-21.7);
+	MaxAngle[LHipRoll] = D2R(45.3);
+	MinAngle[RHipRoll] = D2R(-42.3);
+	MaxAngle[RHipRoll] = D2R(21.8);
+	MinAngle[LKneePitch] = D2R(-5.3);
+	MaxAngle[LKneePitch] = D2R(121.0);
+	MinAngle[RKneePitch] = D2R(-5.3);
+	MaxAngle[RKneePitch] = D2R(121.0);
+	MinAngle[RAnklePitch] = D2R(-68.0);
+	MaxAngle[RAnklePitch] = D2R(53.4);
+	MinAngle[LAnklePitch] = D2R(-68.2);
+	MaxAngle[LAnklePitch] = D2R(52.9);
+	MinAngle[LAnkleRoll] = D2R(-44.1);
+	MaxAngle[LAnkleRoll] = D2R(22.8);
+	MinAngle[RAnkleRoll] = D2R(-22.3);
+	MaxAngle[RAnkleRoll] = D2R(45.0);
+	return;
+}

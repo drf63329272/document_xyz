@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Parameters Version="1">
+    <LostDataFit>0</LostDataFit>
+    <Avatar Index="0">
+        <Smooth Enable="0">
+            <HipDisp>5</HipDisp>
+            <FeetDisp>3</FeetDisp>
+            <HipRot>5</HipRot>
+            <FeetRot>3</FeetRot>
+            <GlobalDisp>3</GlobalDisp>
+            <GlobalRot>3</GlobalRot>
+        </Smooth>
+        <HeelHRatio>1.200000</HeelHRatio>
+        <ClimbConstrain>0</ClimbConstrain>
+        <MagneticImmune>0</MagneticImmune>
+        <Breastbone>0.500000</Breastbone>
+        <Vertebra>0.500000</Vertebra>
+        <Pitch>0.000000</Pitch>
+        <Roll>0.000000</Roll>
+        <Yaw>0.000000</Yaw>
+    </Avatar>
+</Parameters>
