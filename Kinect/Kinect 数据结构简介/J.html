@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<!-- saved from url=(0072)https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx -->
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="WT.seg_1" content="en-us"><link rel="canonical" href="./J_files/J.html">
+        <title>JointType Enumeration</title>
+
+
+
+
+
+<meta name="DCS.dcsuri" content="/en-us/library/hh855342(d=default,l=en-us,v=ieb.10).aspx">
+
+<meta name="NormalizedUrl" content="https://msdn.microsoft.com/en-us/library/hh855342(d=default,l=en-us,v=ieb.10).aspx">
+
+<meta name="ms.normalizedurl" content="https://msdn.microsoft.com/en-us/library/hh855342(d=default,l=en-us,v=ieb.10).aspx">
+
+<meta name="VotingContextUrl" content="https://msdn.microsoft.com/en-us/library/hh855342(d=default,l=en-us,v=ieb.10).aspx">
+
+<meta name="MN" content="61C41DCF-12:22:03 AM">
+
+<meta name="Search.ShortId" content="hh855342">
+
+<meta name="ms.shortidmsdn" content="hh855342">
+
+<meta name="Ms.Locale" content="en-us">
+
+<meta name="ms.prodver" content="IEB.10">
+
+<meta name="ms.contentlang" content="EN">
+
+<meta name="ms.lang" content="EN">
+
+<meta name="ms.loc" content="US">
+
+<meta name="ms.sitever" content="2015.05.03.1">
+
+<meta name="ms.assetid" content="T:Microsoft.Kinect.JointType">
+
+<meta name="ms.auth" content="0">
+
+
+
+
+
+
+
+
+        
+    <link rel="stylesheet" type="text/css" href="./J_files/Combined.css"><script type="text/javascript" src="./J_files/ai.js" async=""></script><script type="text/javascript" src="./J_files/wt_lib.js" async="true" defer="true"></script><script class="mtps-injected">try {
+/**/
+(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { 
+	"image": "https://i-msdn.sec.s-msft.com", 
+	"js": "https://i2-msdn.sec.s-msft.com", 
+	"css": "https://i-msdn.sec.s-msft.com", 
+	"xap": "https://msdn.microsoft.com"
+});
+/**/
+} finally { MTPS._injectNextScript_0 && MTPS._injectNextScript_0(); }</script><script class="mtps-injected" src="./J_files/jquery-1.8.2.min.js"></script><script class="mtps-injected">try {
+//
+  var literalNormalizedUrl = '/en-us/library/hh855342(l=en-us,v=ieb.10).aspx';
+  var wt_nvr_ru = 'WT_NVR_RU';
+  var wt_fpcdom = '.microsoft.com';
+  var wt_domlist = 'msdn.microsoft.com';
+  var wt_pathlist = '';
+  var wt_paramlist = 'DCSext.mtps_devcenter';
+  var wt_siteid = 'MSDN';
+  var gDomain = 'm.webtrends.com';
+  var gDcsId = 'dcsmgru7m99k7mqmgrhudo0k8_8c6m';
+  var gFpc = 'WT_FPC';
+
+
+
+  if (document.cookie.indexOf(gFpc + "=") == -1) {
+    var wtidJs = document.createElement("script");
+    wtidJs.src = "//" + gDomain + "/" + gDcsId + "/wtid.js";
+    document.getElementsByTagName("head")[0].appendChild(wtidJs);
+  }
+
+
+
+  var detectedLocale = 'en-us';
+  var wtsp = 'msdnlib_devtools_lang';
+  var gTrackEvents = '0';
+/**/
+} finally { MTPS._injectNextScript_2 && MTPS._injectNextScript_2(); }</script><script class="mtps-injected">try {
+/**/
+  var omni_guid = "e95876f8-8637-4a28-b369-b22ddb8a6846";
+/**/
+} finally { MTPS._injectNextScript_3 && MTPS._injectNextScript_3(); }</script><script class="mtps-injected">try {
+//
+
+            window.appInsightsId = '60854590-027a-4ae4-98be-2741a40f355f';
+            //
+} finally { MTPS._injectNextScript_4 && MTPS._injectNextScript_4(); }</script><script class="mtps-injected" src="./J_files/Combined.js"></script><script class="mtps-injected" src="./J_files/SearchBox.jss"></script><script type="text/javascript" async="true" defer="true" src="./J_files/2"></script><script type="text/javascript" async="true" defer="true" src="./J_files/2(1)"></script><script class="mtps-injected" src="./J_files/Combined(1).js"></script><script class="mtps-injected">try {
+MTPS = window.MTPS || {}; MTPS.LocalizedStrings = window.MTPS.LocalizedStrings || {}; MTPS.LocalizedStrings.ExpandButtonTooltip = 'Expand'; MTPS.LocalizedStrings.CollapseButtonTooltip = 'Collapse'; MTPS.LocalizedStrings.EnhancedExpandTooltip = 'Click to expand. Double-click to expand all.'; MTPS.LocalizedStrings.EnhancedCollapseTooltip = 'Click to collapse. Double-click to collapse all.'; MTPS.LocalizedStrings.ExpandAllButtonTooltip = 'Expand All'; MTPS.LocalizedStrings.CollapseAllButtonTooltip = 'Collapse All';
+} finally { MTPS._injectNextScript_8 && MTPS._injectNextScript_8(); }</script><script class="mtps-injected" src="./J_files/jquery.tmpl.min.js"></script><script class="mtps-injected" src="./J_files/Combined(2).js"></script><script src="./J_files/broker.js"></script><script class="mtps-injected">try {
+$(document).ready(function() {
+        try {
+            var token = $("#globalRequestVerification input[name='__RequestVerificationToken']").clone();
+            $("#siteFeedbackForm").append(token);
+        } catch(err) {
+            
+        }
+    });
+} finally { MTPS._injectNextScript_11 && MTPS._injectNextScript_11(); }</script><link href="./J_files/PrintView.css" rel="stylesheet" type="text/css" media="print"><script type="text/javascript" src="./J_files/ms.js"></script></head>
+    <body class="library Chrome" style="visibility: visible; zoom: 1;">
+        <div id="page">
+            
+
+            
+            
+            
+    
+
+        <script type="text/javascript" data-provides="wt_capi" data-do-not-move="true" src="./J_files/wt_capi.js"></script>
+        <script type="text/javascript" data-requires="wt_capi" data-do-not-move="true" src="./J_files/wto.js"></script>
+    
+    <link type="text/css" rel="stylesheet">
+    
+    <input type="hidden" id="isHeaderBleeding" value="true">
+    <div id="ux-header" dir="ltr" class="ltr msdn" data-device-type="desktop">
+        
+
+      <header>
+        <span id="singleCol"></span>
+        <span id="doubleCol"></span>
+        <span id="isMobile"></span>
+        <div>
+          <div class="row topRow">
+            <div class="top">
+              <div class="left">
+                <a class="msdnLogoImg" href="https://msdn.microsoft.com/en-us">
+                  <div id="msft-logo" class="msft-logo"></div>
+                </a>
+                <div class="GrayPipe"></div>
+                  <a class="DevCenterFullNameNonMegaBlade" href="https://msdn.microsoft.com/en-us">Developer Network</a>
+                <a class="DevCenterFullName" href="https://msdn.microsoft.com/en-us">Developer Network</a>
+                <a class="DevCenterShortName" href="https://msdn.microsoft.com/en-us">Developer</a>
+              </div>
+              <div class="right">
+                <div id="signIn">
+
+  <img class="profileImage" src="./J_files/profile.jpg">
+
+
+
+<a class="scarabLink" href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=12&ct=1432624923&rver=6.0.5276.0&wp=MCMBI&wlcxt=MSDN%24MSDN%24MSDN&wreply=https%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fmicrosoft.kinect.jointtype.aspx&lc=1033&id=254354&mkt=en-US" title="Sign in">Sign in</a></div>
+
+
+
+
+                <div class="auxNav">
+                  <div>
+                    <div data-fragmentname="Subscriptions" id="Fragment_Subscriptions" xmlns="http://www.w3.org/1999/xhtml">
+  <a href="https://msdn.microsoft.com/subscriptions/manage/hh442900" id="Subscriptions_2153_1" xmlns="http://www.w3.org/1999/xhtml">MSDN subscriptions</a>
+</div>
+                    <div data-fragmentname="GetTools" id="Fragment_GetTools" xmlns="http://www.w3.org/1999/xhtml">
+  <a href="http://go.microsoft.com/fwlink/?LinkId=309297&clcid=0x409&slcid=0x409&campaign=o~msft~msdn~gettools-header~dn308572" id="GetTools_2153_3" xmlns="http://www.w3.org/1999/xhtml">Get tools</a>
+</div>
+                  </div>
+                  <div>
+                    <div data-fragmentname="SocialLinks" id="Fragment_SocialLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links horizontal">
+      <li>
+        <a href="http://www.facebook.com/microsoftdeveloper" target="_blank" id="SocialLinks_2152_4" class="facebook" xmlns="http://www.w3.org/1999/xhtml">http://www.facebook.com/microsoftdeveloper</a>
+      </li>
+      <li>
+        <a href="https://twitter.com/msdev" target="_blank" id="SocialLinks_2152_5" class="twitter" xmlns="http://www.w3.org/1999/xhtml">https://twitter.com/msdev</a>
+      </li>
+      <li>
+        <a href="http://plus.google.com/111221966647232053570/" target="_blank" id="SocialLinks_2152_6" class="googlePlus" xmlns="http://www.w3.org/1999/xhtml">http://plus.google.com/111221966647232053570/</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="row middleRow">
+            <div class="expandTop" style="display: none;">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </div>
+        </div>
+        <div id="buttomRowWrapper" style="background-color: #232323;">
+          <div class="row buttomRow" style="background-color: #232323">
+            <div class="bottom">
+              <div class="left">
+                <a id="grip" class="menu-icon" href="javascript:void(0)"></a>
+                
+                <div id="drawer">
+                  <div class="toc">
+                    
+        <nav>
+            <ul class="navL1">
+                        <li class="inactive toggle">
+                            <a href="javascript:void(0)" title="Technologies">Technologies</a>
+                                <ul class="navL2" style="display: none;">
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/cloud-app-development-msdn" title="Cloud">Cloud</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/mobile-app-development-msdn" title="Mobile">Mobile</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/web-app-development-msdn" title="Web">Web</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/business-and-productivity-app-development-msdn" title="Business">Business</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/big-data-development-msdn" title="Data">Data</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/en-us/games-development-msdn" title="Gaming">Gaming</a>
+
+                                                   
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive toggle">
+                            <a href="javascript:void(0)" title="Downloads">Downloads</a>
+                                <ul class="navL2" style="display: none;">
+                                        <li class="inactive">
+                                            <a href="https://www.visualstudio.com/downloads/download-visual-studio-vs" title="Visual Studio">Visual Studio</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/subscriptions" title="MSDN subscription access">MSDN subscription access</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/microsoft-sdks-msdn" title="SDKs">SDKs</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive toggle">
+                                            <a href="javascript:void(0)" title="Trial software">Trial software</a>
+
+                                                <ul class="navL3" style="display: none;">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/evalcenter" title="Free downloads">Free downloads</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/officeevaluationresources" title="Office resources">Office resources</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/sharepoint2013resources" title="SharePoint Server 2013 resources">SharePoint Server 2013 resources</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/sqlserver2014expressresources" title="SQL Server 2014 Express resources">SQL Server 2014 Express resources</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/windowsserver2012r2resources" title="Windows Server 2012 resources">Windows Server 2012 resources</a>
+                                                        </li>
+                                                </ul>
+                                                   
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive toggle">
+                            <a href="javascript:void(0)" title="Programs">Programs</a>
+                                <ul class="navL2" style="display: none;">
+                                        <li class="inactive">
+                                            <a href="https://rewards.msdn.microsoft.com/" title="Rewards">Rewards</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://www.microsoft.com/bizspark" title="Startups">Startups</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive toggle">
+                                            <a href="javascript:void(0)" title="Students">Students</a>
+
+                                                <ul class="navL3" style="display: none;">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/student-developer-program" title="Develop apps">Develop apps</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="http://blogs.msdn.com/b/microsoft_student_developer_blog" title="Blog">Blog</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/microsoftstudentpartners" title="Microsoft Student Partners">Microsoft Student Partners</a>
+                                                        </li>
+                                                </ul>
+                                                   
+                                        </li>
+                                        <li class="inactive toggle">
+                                            <a href="javascript:void(0)" title="Architects">Architects</a>
+
+                                                <ul class="navL3" style="display: none;">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/architects-overview-msdn" title="Overview">Overview</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/architects-case-studies-msdn" title="Case studies">Case studies</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/architects-blueprints-msdn" title="Blueprints">Blueprints</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="http://blogs.msdn.com/b/msarchitecture/" title="Blog">Blog</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="http://social.msdn.microsoft.com/forums/en-us/home?brandignore=true&sort=relevancedesc&searchterm=architecture+or+architect" title="Forums">Forums</a>
+                                                        </li>
+                                                </ul>
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="http://events.msdn.microsoft.com/" title="Events">Events</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive toggle">
+                                            <a href="javascript:void(0)" title="MSDN Subscriptions">MSDN Subscriptions</a>
+
+                                                <ul class="navL3" style="display: none;">
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/msdn-subscriptions-overview" title="Overview">Overview</a>
+                                                        </li>
+                                                        <li class="inactive">
+                                                            <a href="https://msdn.microsoft.com/benefits-overview" title="Benefits">Benefits</a>
+                                                        </li>
+                                                </ul>
+                                                   
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive toggle">
+                            <a href="javascript:void(0)" title="Community">Community</a>
+                                <ul class="navL2" style="display: none;">
+                                        <li class="inactive">
+                                            <a href="https://social.msdn.microsoft.com/forums/" title="Forums">Forums</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="http://blogs.msdn.com/b/developer-tools/" title="Blogs">Blogs</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="http://tech-advisors.msdn.microsoft.com/en-us" title="Tech Advisors">Tech Advisors</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="http://channel9.msdn.com/" title="Channel 9">Channel 9</a>
+
+                                                   
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive current toggle">
+                            <a href="javascript:void(0)" title="Documentation">Documentation</a>
+                                <ul class="navL2" style="display: none;">
+                                        <li class="inactive current">
+                                            <a href="https://msdn.microsoft.com/library" title="APIs and reference">APIs and reference</a>
+
+                                                   
+                                        </li>
+                                        <li class="inactive">
+                                            <a href="https://msdn.microsoft.com/developer-centers-msdn" title="Dev centers">Dev centers</a>
+
+                                                   
+                                        </li>
+                                </ul>
+                        </li>
+                        <li class="inactive">
+                            <a href="https://code.msdn.microsoft.com/" title="Samples">Samples</a>
+                        </li>
+            </ul>
+        </nav>
+
+                  </div>
+                </div>
+              </div>
+              <div class="right">
+                <div data-fragmentname="SearchBox" id="Fragment_SearchBox" xmlns="http://www.w3.org/1999/xhtml">
+  <div class="SearchBox">
+    <form id="HeaderSearchForm" name="HeaderSearchForm" method="get" class="SearchBoxOnFocus">
+      <button id="FakeHeaderSearchButton" value="" type="submit" class="header-search-button">
+        <div id="search-finder" class="search-finder"></div>
+      </button>
+      <button id="HeaderSearchButton" style="display:none" title="Search MSDN"></button>
+      <div id="searchSplitter"></div>
+      <div id="searchCloseIcon" class="search-clear-x"></div>
+      <div id="searchTextContainer" style="width: 0px; display: none;">
+        <input id="HeaderSearchTextBox" name="query" type="text" maxlength="200" onfocus="Epx.Controls.SearchBox.watermarkFocus(event, this.title)" onblur="Epx.Controls.SearchBox.watermarkBlur(event, this.title)" autocomplete="off">
+      <div id="SearchFlyoutContainer" style="display: none; text-align: left; border: 1px solid buttonshadow; position: absolute; z-index: 1000; padding: 2px; color: rgb(255, 255, 255); font-family: Arial; font-size: 16px; background-color: rgb(255, 255, 255);"><div id="SuggestionContainer"><ul style="list-style: none; padding: 4px 2px 0px 1px; cursor: pointer; margin: 1px; white-space: nowrap;"></ul></div></div></div>
+    </form>
+    
+    
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </header>
+
+    <div id="overlayMaskHeader"></div></div>
+    
+    
+
+        
+    <div class="printExportMenus ltr">
+        <a id="isd_printABook" href="https://msdn.microsoft.com/en-us/library/export/help/?returnUrl=%2fen-us%2flibrary%2fmicrosoft.kinect.jointtype.aspx" style="display: inline;">
+            Export (<span class="count">0</span>)
+        </a>
+        <a id="isd_print" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype(d=printer).aspx" rel="nofollow">
+            Print 
+        </a>
+    </div>
+    
+
+        <div class="printExportMenus ltr">
+        <a id="expandCollapseAll" accesskey="e" href="javascript:void(0)" title="Expand/Collapse all sections by pressing Ctrl + Shift + e">Collapse All</a>
+    </div>
+
+    
+
+
+            <div id="body">
+                
+
+
+
+
+
+
+
+
+    <div id="leftNav" style="width: 435px; max-width: 480px; min-height: 2306px; height: auto;">
+
+
+
+<div id="tocnav" style="">
+
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/ms123401.aspx" id="ms310241_MSDN.10_en-us" mtpsaliasid="" mtpsassetid="5DDC0A78-6B2C-43E3-9C56-55F45C0DFFA5_MSDN.10_en-us" mtpsshortid="ms123401_MSDN.10_en-us" title="MSDN Library">MSDN Library</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/aa187916.aspx" id="aa187916_MSDN.10_en-us" mtpsaliasid="" mtpsassetid="MSDN|devtoolslang|$\devtoolslang.hxt@0,0_MSDN.10_en-us" mtpsshortid="aa187916_MSDN.10_en-us" title="Development Tools and Languages">Development Tools and Languages</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/hh855347.aspx" id="hh859583_IEB.10_en-us" mtpsaliasid="" mtpsassetid="861341e2-e072-ac00-9a07-6c90bee8dbb3_IEB.10_en-us" mtpsshortid="hh855347_IEB.10_en-us" title="Kinect for Windows SDK 1.8">Kinect for Windows SDK 1.8</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/jj572480.aspx" id="hh859611_IEB.10_en-us" mtpsaliasid="" mtpsassetid="c10df113-a1e5-8ba6-2cdd-d0c0cce01a28_IEB.10_en-us" mtpsshortid="jj572480_IEB.10_en-us" title="Reference">Reference</a>            </div>
+            <div class="toclevel0" data-toclevel="0" style="padding-left: 0px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/hh855367.aspx" id="jj589668_IEB.10_en-us" mtpsaliasid="" mtpsassetid="3d74bb49-6af7-35a0-c2e3-aba6dba93935_IEB.10_en-us" mtpsshortid="hh855367_IEB.10_en-us" title="Managed Code Reference">Managed Code Reference</a>            </div>
+            <div class="toclevel1" data-toclevel="1" data-childrenloaded="true" style="padding-left: 17px;">
+<a class="toc_expanded" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.aspx" id="dn167740_IEB.10_en-us" mtpsaliasid="microsoft.kinect" mtpsassetid="N:Microsoft.Kinect_IEB.10_en-us" mtpsshortid="hh855419_IEB.10_en-us" title="Microsoft.Kinect">Microsoft.Kinect</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.allframesreadyeventargs.aspx" id="dn167741_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="AllFramesReadyEventArgs Class">AllFramesReadyEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.backlightcompensationmode.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="BacklightCompensationMode Enumeration">BacklightCompensationMode Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.beamanglechangedeventargs.aspx" id="dn167743_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="BeamAngleChangedEventArgs Class">BeamAngleChangedEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.beamanglemode.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="BeamAngleMode Enumeration">BeamAngleMode Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.boneorientation.aspx" id="dn167745_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="BoneOrientation Class">BoneOrientation Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.boneorientationcollection.aspx" id="dn167747_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="BoneOrientationCollection Class">BoneOrientationCollection Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.bonerotation.aspx" id="dn167750_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="BoneRotation Class">BoneRotation Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.colorcamerasettings.aspx" id="dn167752_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ColorCameraSettings Class">ColorCameraSettings Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.colorimageformat.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ColorImageFormat Enumeration">ColorImageFormat Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.colorimageframe.aspx" id="dn167756_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ColorImageFrame Class">ColorImageFrame Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.colorimageframereadyeventargs.aspx" id="dn167760_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ColorImageFrameReadyEventArgs Class">ColorImageFrameReadyEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.colorimagepoint.aspx" id="dn167762_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ColorImagePoint Structure">ColorImagePoint Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.colorimagestream.aspx" id="dn167766_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ColorImageStream Class">ColorImageStream Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.coordinatemapper.aspx" id="dn167780_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="CoordinateMapper Class">CoordinateMapper Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthimageformat.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthImageFormat Enumeration">DepthImageFormat Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthimageframe.aspx" id="dn167785_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthImageFrame Class">DepthImageFrame Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthimageframereadyeventargs.aspx" id="dn167791_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthImageFrameReadyEventArgs Class">DepthImageFrameReadyEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthimagepixel.aspx" id="dn167793_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthImagePixel Structure">DepthImagePixel Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthimagepoint.aspx" id="dn167797_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthImagePoint Structure">DepthImagePoint Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthimagestream.aspx" id="dn167801_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthImageStream Class">DepthImageStream Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.depthrange.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="DepthRange Enumeration">DepthRange Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.echocancellationmode.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="EchoCancellationMode Enumeration">EchoCancellationMode Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.frameedges.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="FrameEdges Enumeration">FrameEdges Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.idepthfilter.aspx" id="dn167805_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="IDepthFilter Interface">IDepthFilter Interface</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.imageframe.aspx" id="dn167809_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ImageFrame Class">ImageFrame Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.imagestream.aspx" id="dn167812_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="ImageStream Class">ImageStream Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.joint.aspx" id="dn167816_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Joint Structure">Joint Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointcollection.aspx" id="dn387235_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="JointCollection Class">JointCollection Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtrackingstate.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="JointTrackingState Enumeration">JointTrackingState Enumeration</a>            </div>
+            <div class="toclevel2 current" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="./J_files/J.html" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="JointType Enumeration">JointType Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.kinectaudiosource.aspx" id="dn167824_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="KinectAudioSource Class">KinectAudioSource Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.kinectsensor.aspx" id="dn167829_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="KinectSensor Class">KinectSensor Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.kinectsensorcollection.aspx" id="dn387240_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="KinectSensorCollection Class">KinectSensorCollection Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.kinectstatus.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="KinectStatus Enumeration">KinectStatus Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.matrix4.aspx" id="dn387244_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Matrix4 Structure">Matrix4 Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.nuidepthfilter.aspx" id="dn167837_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="NuiDepthFilter Class">NuiDepthFilter Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.powerlinefrequency.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="PowerLineFrequency Enumeration">PowerLineFrequency Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeleton.aspx" id="dn167842_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Skeleton Class">Skeleton Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeletonframe.aspx" id="dn167844_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SkeletonFrame Class">SkeletonFrame Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeletonframereadyeventargs.aspx" id="dn167848_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SkeletonFrameReadyEventArgs Class">SkeletonFrameReadyEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeletonpoint.aspx" id="dn387250_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SkeletonPoint Structure">SkeletonPoint Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeletonstream.aspx" id="dn387254_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SkeletonStream Class">SkeletonStream Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeletontrackingmode.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SkeletonTrackingMode Enumeration">SkeletonTrackingMode Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<span class="toc_empty"></span><a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.skeletontrackingstate.aspx" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SkeletonTrackingState Enumeration">SkeletonTrackingState Enumeration</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.soundsourceanglechangedeventargs.aspx" id="dn167857_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="SoundSourceAngleChangedEventArgs Class">SoundSourceAngleChangedEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.statuschangedeventargs.aspx" id="dn167861_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="StatusChangedEventArgs Class">StatusChangedEventArgs Class</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.transformsmoothparameters.aspx" id="dn387259_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="TransformSmoothParameters Structure">TransformSmoothParameters Structure</a>            </div>
+            <div class="toclevel2" data-toclevel="2" style="padding-left: 34px;">
+<a class="toc_collapsed" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#"></a><a data-tochassubtree="true" href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.vector4.aspx" id="dn387263_IEB.10_en-us" mtpsaliasid="" mtpsassetid="" mtpsshortid="" title="Vector4 Structure">Vector4 Structure</a>            </div>
+</div>
+        
+
+        
+
+        
+        
+        <div id="toc-resizable-ew" class="toc-resizable-ew"></div>
+        
+
+<a id="NavigationResize" href="javascript:void(0)" style="left: 435px; display: inline-block;">
+    <img class="cl_nav_resize_open" src="./J_files/ImageSprite.png" title="Expand" alt="Expand">
+    <img class="cl_nav_resize_close" src="./J_files/ImageSprite.png" title="Minimize" alt="Minimize" style="display: none;">
+</a>
+
+
+
+    </div>
+<div id="content" class="content" style="margin-left: 435px; width: auto;">
+
+
+
+
+
+
+
+        
+
+<div class="topic" xmlns="http://www.w3.org/1999/xhtml">
+  <h1 class="title">JointType Enumeration</h1>
+  
+  <div id="mainSection">
+    <div id="mainBody">
+      <div class="preliminary">[This documentation is preliminary and is subject to change.]</div>Joint types in a skeleton.<a id="syntaxSection"></a> <div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" role="button" title="Click to collapse. Double-click to collapse all."><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img" title="Click to collapse. Double-click to collapse all."></span><span class="LW_CollapsibleArea_Title">Syntax</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr"></div></div></h2><div class="sectionblock"><a id="ID4EE"></a>
+<div id="code-snippet-1" class="codeSnippetContainer" xmlns="">
+    <div class="codeSnippetContainerTabs">
+        <div class="codeSnippetContainerTabSingle" dir="ltr"><a>C#</a></div>
+    </div>
+    <div class="codeSnippetContainerCodeContainer">
+        <div class="codeSnippetToolBar">
+            <div class="codeSnippetToolBarText">
+                <a name="CodeSnippetCopyLink" style="display: none;" title="Copy to clipboard." href="javascript:if (window.epx.codeSnippet)window.epx.codeSnippet.copyCode('CodeSnippetContainerCode_44ddf969-cc7c-46aa-9bc8-fda5a78d21c3');">Copy</a>
+            </div>
+        </div>
+        <div id="CodeSnippetContainerCode_44ddf969-cc7c-46aa-9bc8-fda5a78d21c3" class="codeSnippetContainerCode" dir="ltr">
+            <div style="color:Black;"><pre><span style="color:Blue;">public</span> <span style="color:Blue;">enum</span> JointType
+</pre></div>
+            
+        </div>
+    </div>
+</div>
+</div></div><a id="ID4EQD"></a> <div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Click to collapse. Double-click to collapse all." role="button"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Members</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr"></div></div></h2><div class="sectionblock"><a id="ID4EQD"></a><table><tbody><tr><th>Member</th><th>Value</th><th>Description</th></tr><tr><td><strong><a id="#JointType.AnkleLeft"></a>AnkleLeft</strong></td><td>14&nbsp;
+                  </td><td>Left ankle</td></tr><tr><td><strong><a id="#JointType.AnkleRight"></a>AnkleRight</strong></td><td>18&nbsp;
+                  </td><td>Right ankle</td></tr><tr><td><strong><a id="#JointType.ElbowLeft"></a>ElbowLeft</strong></td><td>5&nbsp;
+                  </td><td>Left elbow</td></tr><tr><td><strong><a id="#JointType.ElbowRight"></a>ElbowRight</strong></td><td>9&nbsp;
+                  </td><td>Right elbow</td></tr><tr><td><strong><a id="#JointType.FootLeft"></a>FootLeft</strong></td><td>15&nbsp;
+                  </td><td>Left foot</td></tr><tr><td><strong><a id="#JointType.FootRight"></a>FootRight</strong></td><td>19&nbsp;
+                  </td><td>Right foot</td></tr><tr><td><strong><a id="#JointType.HandLeft"></a>HandLeft</strong></td><td>7&nbsp;
+                  </td><td>Left hand</td></tr><tr><td><strong><a id="#JointType.HandRight"></a>HandRight</strong></td><td>11&nbsp;
+                  </td><td>Right hand</td></tr><tr><td><strong><a id="#JointType.HandTipLeft"></a>HandTipLeft</strong></td><td>21&nbsp;
+                  </td><td>Tip of the left hand</td></tr><tr><td><strong><a id="#JointType.HandTipRight"></a>HandTipRight</strong></td><td>23&nbsp;
+                  </td><td>Tip of the right hand</td></tr><tr><td><strong><a id="#JointType.Head"></a>Head</strong></td><td>3&nbsp;
+                  </td><td>Head</td></tr><tr><td><strong><a id="#JointType.HipLeft"></a>HipLeft</strong></td><td>12&nbsp;
+                  </td><td>Left hip</td></tr><tr><td><strong><a id="#JointType.HipRight"></a>HipRight</strong></td><td>16&nbsp;
+                  </td><td>Right hip</td></tr><tr><td><strong><a id="#JointType.KneeLeft"></a>KneeLeft</strong></td><td>13&nbsp;
+                  </td><td>Left knee</td></tr><tr><td><strong><a id="#JointType.KneeRight"></a>KneeRight</strong></td><td>17&nbsp;
+                  </td><td>Right knee</td></tr><tr><td><strong><a id="#JointType.Neck"></a>Neck</strong></td><td>2&nbsp;
+                  </td><td>Neck</td></tr><tr><td><strong><a id="#JointType.ShoulderLeft"></a>ShoulderLeft</strong></td><td>4&nbsp;
+                  </td><td>Left shoulder</td></tr><tr><td><strong><a id="#JointType.ShoulderRight"></a>ShoulderRight</strong></td><td>8&nbsp;
+                  </td><td>Right shoulder</td></tr><tr><td><strong><a id="#JointType.SpineBase"></a>SpineBase</strong></td><td>0&nbsp;
+                  </td><td>Base of the spine</td></tr><tr><td><strong><a id="#JointType.SpineMid"></a>SpineMid</strong></td><td>1&nbsp;
+                  </td><td>Middle of the spine</td></tr><tr><td><strong><a id="#JointType.SpineShoulder"></a>SpineShoulder</strong></td><td>20&nbsp;
+                  </td><td>Spine at the shoulder</td></tr><tr><td><strong><a id="#JointType.ThumbLeft"></a>ThumbLeft</strong></td><td>22&nbsp;
+                  </td><td>Left thumb</td></tr><tr><td><strong><a id="#JointType.ThumbRight"></a>ThumbRight</strong></td><td>24&nbsp;
+                  </td><td>Right thumb</td></tr><tr><td><strong><a id="#JointType.WristLeft"></a>WristLeft</strong></td><td>6&nbsp;
+                  </td><td>Left wrist</td></tr><tr><td><strong><a id="#JointType.WristRight"></a>WristRight</strong></td><td>10&nbsp;
+                  </td><td>Right wrist</td></tr></tbody></table></div></div><a id="remarks"></a> <div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Click to collapse. Double-click to collapse all." role="button"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Remarks</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr"></div></div></h2><div class="sectionblock"><a id="ID4ERD"></a>
+    <p>This following figure shows the skeleton that is made up of each of these joint types.</p>
+
+    <p><strong>Figure 1.&nbsp;&nbsp;Skeleton positions relative to the human body</strong></p><img id="skeleton_overview_nui_skeleton" alt="Hh855342.skeleton_overview_nui_skeleton(en-us,IEB.10).png" src="./J_files/IC741371.png" title="Hh855342.skeleton_overview_nui_skeleton(en-us,IEB.10).png" xmlns="">
+
+    <p>
+      To see more information about the types of tracking you can do with a joint, see the
+      <a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.trackingconfidence.aspx">TrackingConfidence</a>.
+    </p>
+  </div></div><a id="requirements"></a> <div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Click to collapse. Double-click to collapse all." role="button"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">Requirements</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr"></div></div></h2><div class="sectionblock"><a id="ID4E5D"></a><dl><dt><strong>Namespace: </strong>Microsoft.Kinect</dt><dt><strong>Assembly:
+            </strong>Microsoft.Kinect (in microsoft.kinect.dll)</dt></dl></div></div><a id="ID4E6D"></a> <div><h2 class="LW_CollapsibleArea_TitleDiv"><div><a href="javascript:void(0)" class="LW_CollapsibleArea_TitleAhref" title="Click to collapse. Double-click to collapse all." role="button"><span class="cl_CollapsibleArea_expanding LW_CollapsibleArea_Img"></span><span class="LW_CollapsibleArea_Title">See also</span></a><div class="LW_CollapsibleArea_HrDiv"><hr class="LW_CollapsibleArea_Hr"></div></div></h2><div class="sectionblock"><a id="seeAlsoToggle"></a>
+    <a id="ID4EBE"></a> <h4 class="subHeading">Reference</h4><div id="ID4EBE1" class="hxnx3">
+      
+      <a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.aspx">Microsoft.Kinect Namespace</a><br>
+    </div>
+  </div></div></div>
+  </div>
+</div>
+
+
+    
+
+
+
+<script id="CommentTemplate" type="text/x-jquery-tmpl">
+    <div class="communityContentAnnotation">
+        <a name="${Index}"></a>
+        <h3>
+            ${Title}
+        </h3>
+        <div class="communityContentAnnotationBody">
+            {{html Body}}
+        </div>
+        <div class="communityContentAnnotationInfo">
+            <div class="communityContentAnnotationAvatarContainer">
+                <a href="${UserAvatar.Href}" title="${UserAvatar.ToolTip}" class="communityContentAnnotationAvatar"><img src="${UserAvatar.ImageUrl}" alt="${UserAvatar.ImageAltText}" width="34" height="34" /></a>
+            </div>
+            <div class="communityContentAnnotationUserDateContainer">
+                <div class="communityContentAnnotationUserContainer">
+                    <a href="${UserAvatar.Href}">
+                        ${User}
+                    </a>
+                </div>
+                <div class="communityContentAnnotationDateContainer">
+                    <span>${Date}</span>
+                    
+                    {{if EditLink}}
+                        <span>
+                            <a href="${EditLink.Href}" title="${EditLink.ToolTip}" class="communityContentCommentEditLink">${EditLink.Title}</a>
+                        </span>
+                    {{/if}}
+
+                    {{if DeleteLink}}
+                        <span>
+                            <a href="${DeleteLink.Href}" title="${DeleteLink.ToolTip}" class="communityContentDeleteLink">${DeleteLink.Title}</a>
+                        </span>
+                    {{/if}}
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+
+<div class="communityContentContainer">
+    <div id="CommunityContentHeader" class="communityContentHeader">
+        <div class="communityContentHeaderTitleContainer">
+            <h2>Community Additions</h2>
+                <a class="communityContentAddLink" href="https://msdn.microsoft.com/en-us/library/community/add/microsoft.kinect.jointtype.aspx">
+                    <span class="communityContentAddButton" title="Add">
+                        ADD
+                    </span>
+                </a>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    
+    <div id="CommunityComments" data-url="/en-us/library/community/comments/microsoft.kinect.jointtype.aspx"></div>
+</div>
+
+
+
+
+<div class="libraryMemberFilter">
+    <div class="filterContainer">
+        <span>Show:</span>
+        <label>
+            <input type="checkbox" class="libraryFilterInherited" checked="checked" value="Inherit">Inherited
+        </label>
+        <label>
+            <input type="checkbox" class="libraryFilterProtected" checked="checked" value="Protected">Protected
+        </label>
+    </div>
+</div>
+    
+<input type="hidden" id="libraryMemberFilterEmptyWarning" value="There are no members available with your current filter settings.">
+
+
+ 
+</div>
+
+
+            </div>
+            <div class="clear"></div>
+
+            
+    
+<input name="__RequestVerificationToken" type="hidden" value="KofLVNBQYKXzjJjZI0L18qMMrPcHDth9DvjU4M7TMT2qX3ET3HizSRhYAkaSXoRZnOXFppMhSQoNJYy9E_uWrtG3Bt01">
+<input id="ratingSubmitUrl" type="hidden" value="https://msdn.microsoft.com/en-us/library/feedback/add/microsoft.kinect.jointtype.aspx">
+<input id="isTopicRated" type="hidden" value="false">
+
+
+    
+
+    
+    <link type="text/css" rel="stylesheet">
+    
+    <div id="ux-footer" class="" style="" dir="ltr">
+            
+            <div id="footerSock" class="librarySock both">
+                <div id="footerSockInner">
+                        <a name="feedback"></a>
+
+<div class="rating">
+    <div id="ratingSection1">
+        <div class="title">
+            Was this page helpful?
+        </div>
+        <div class="description">
+            Your feedback about this content is important.<br>Let us know what you think.
+        </div>
+        <div class="buttons">
+            <button class="button" id="ratingYes">Yes</button>
+            <button class="button" id="ratingNo">No</button>
+        </div>
+        <input id="ratingValue" type="hidden" value="">
+    </div>
+    <div id="ratingSection2">
+        <div class="title">
+            Additional feedback?
+        </div>
+        <textarea id="ratingText" rows="6" cols="" maxlength="1500"></textarea>
+        <div class="counter right">
+            <span id="feedbackTextCounter">1500</span> characters remaining
+        </div>
+        <div class="buttons left">
+            <button class="button" id="ratingSubmit">Submit</button>
+            <button class="button" id="ratingSkipThis">Skip this</button>
+        </div>
+    </div>
+    <div id="ratingSection3">
+        <div class="title">
+            Thank you!
+        </div>
+        <div class="description">
+            We appreciate your feedback.
+        </div>
+    </div>
+    
+    
+    <div id="contentFeedbackQAContainer" style="display: none;"></div>
+</div>
+    
+                    <div class="userVoice">
+    <div class="title">
+        Have a suggestion to improve MSDN Library?
+    </div>
+        <div class="description">
+            Visit our UserVoice Page to submit and vote on ideas!
+        </div>
+    <div class="buttons">
+        <a class="button" id="userVoiceButton" href="http://feedback.msdn.com/forums/257782-msdn-feature-suggestions/category/83975" target="_blank">Make a suggestion</a>
+    </div>
+</div>  
+                    <div class="clear"></div>
+                </div>
+            </div>
+
+        <footer class="top">
+            <div data-fragmentname="LeftLinks" id="Fragment_LeftLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <div class="linkListTitle">Dev centers</div>
+    <ul class="links">
+      <li>
+        <a href="https://dev.windows.com/" id="LeftLinks_2148_1" class="windowsBlue" xmlns="http://www.w3.org/1999/xhtml">Windows</a>
+      </li>
+      <li>
+        <a href="http://dev.office.com/" id="LeftLinks_2148_3" class="office" xmlns="http://www.w3.org/1999/xhtml">Office</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/vstudio" id="LeftLinks_2148_4" class="visualStudio" xmlns="http://www.w3.org/1999/xhtml">Visual Studio</a>
+      </li>
+      <li>
+        <a href="http://azure.microsoft.com/en-us/documentation/" target="_blank" id="LeftLinks_2148_12" xmlns="http://www.w3.org/1999/xhtml">Microsoft Azure</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/aa937802" id="LeftLinks_2148_5" xmlns="http://www.w3.org/1999/xhtml">More...</a>
+      </li>
+    </ul>
+  </div>
+</div>    
+            <div id="rightLinks">
+                <div data-fragmentname="CenterLinks1" id="Fragment_CenterLinks1" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <div class="linkListTitle">Learning resources</div>
+    <ul class="links">
+      <li>
+        <a href="http://www.microsoftvirtualacademy.com/" id="CenterLinks1_2151_4" xmlns="http://www.w3.org/1999/xhtml">Microsoft Virtual Academy</a>
+      </li>
+      <li>
+        <a href="http://channel9.msdn.com/" id="CenterLinks1_2151_5" xmlns="http://www.w3.org/1999/xhtml">Channel 9</a>
+      </li>
+      <li>
+        <a href="http://www.interoperabilitybridges.com/" id="CenterLinks1_2151_6" xmlns="http://www.w3.org/1999/xhtml">Interoperability Bridges</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/magazine/" id="CenterLinks1_2151_7" xmlns="http://www.w3.org/1999/xhtml">MSDN Magazine</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                <div data-fragmentname="CenterLinks2" id="Fragment_CenterLinks2" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <div class="linkListTitle">Community</div>
+    <ul class="links">
+      <li>
+        <a href="https://social.msdn.microsoft.com/forums/en-us/home" id="CenterLinks2_2151_8" xmlns="http://www.w3.org/1999/xhtml">Forums</a>
+      </li>
+      <li>
+        <a href="http://blogs.msdn.com/b/developer-tools/" id="CenterLinks2_2151_9" xmlns="http://www.w3.org/1999/xhtml">Blogs</a>
+      </li>
+      <li>
+        <a href="http://www.codeplex.com/" id="CenterLinks2_2151_10" xmlns="http://www.w3.org/1999/xhtml">Codeplex</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                <div data-fragmentname="CenterLinks3" id="Fragment_CenterLinks3" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <div class="linkListTitle">Support</div>
+    <ul class="links">
+      <li>
+        <a href="https://msdn.microsoft.com/hh361695" id="CenterLinks3_2151_11" xmlns="http://www.w3.org/1999/xhtml">Self support</a>
+      </li>
+    </ul>
+  </div>
+</div>
+                <div data-fragmentname="CenterLinks4" id="Fragment_CenterLinks4" xmlns="http://www.w3.org/1999/xhtml" class="nth-child-4n">
+  
+  <div class="linkList">
+    <div class="linkListTitle">Programs</div>
+    <ul class="links">
+      <li>
+        <a href="https://www.microsoft.com/bizspark/" id="CenterLinks4_2151_13" xmlns="http://www.w3.org/1999/xhtml">BizSpark (for startups)</a>
+      </li>
+      <li>
+        <a href="https://www.dreamspark.com/" id="CenterLinks4_2151_14" xmlns="http://www.w3.org/1999/xhtml">DreamSpark</a>
+      </li>
+      <li>
+        <a href="http://www.imaginecup.com/" id="CenterLinks4_2151_17" xmlns="http://www.w3.org/1999/xhtml">Imagine Cup</a>
+      </li>
+    </ul>
+  </div>
+</div>                
+            </div>
+        </footer>
+    
+        <footer class="bottom">
+            <span class="localeContainer">
+                
+    <form class="selectLocale" id="selectLocaleForm" action="https://msdn.microsoft.com/en-us/selectlocale-dmc">
+        <input type="hidden" name="fromPage" value="https%3a%2f%2fmsdn.microsoft.com%2fen-us%2flibrary%2fmicrosoft.kinect.jointtype.aspx">
+        <a href="https://msdn.microsoft.com/en-us/library/microsoft.kinect.jointtype.aspx#" onclick="$(&#39;#selectLocaleForm&#39;).submit();return false;" title="Change your language">United States (English)</a>
+    </form>
+
+
+            </span>
+        
+            <div data-fragmentname="BottomLinks" id="Fragment_BottomLinks" xmlns="http://www.w3.org/1999/xhtml">
+  
+  <div class="linkList">
+    <ul class="links horizontal">
+      <li>
+        <a href="https://msdn.microsoft.com/newsletter.aspx" id="BottomLinks_2148_7" xmlns="http://www.w3.org/1999/xhtml">Newsletter</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/dn529288" id="BottomLinks_2148_8" xmlns="http://www.w3.org/1999/xhtml">Privacy &amp; cookies</a>
+      </li>
+      <li>
+        <a href="https://msdn.microsoft.com/cc300389" id="BottomLinks_2148_9" xmlns="http://www.w3.org/1999/xhtml">Terms of use</a>
+      </li>
+      <li>
+        <a href="https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/EN-US.aspx" id="BottomLinks_2148_10" xmlns="http://www.w3.org/1999/xhtml">Trademarks</a>
+      </li>
+    </ul>
+  </div>
+</div>    
+            <span class="logoLegal">
+                <span class="logo"></span>
+                <span class="copyright">© 2015 Microsoft</span>
+            </span>
+        </footer>
+    </div>
+    
+
+
+            <div class="footerPrintView">
+                <div class="footerCopyrightPrintView">© 2015 Microsoft</div>
+            </div>
+
+            
+            
+    
+    
+    <input id="tocPaddingPerLevel" type="hidden" value="17">
+
+
+
+            <input id="MtpsDevice" type="hidden" value="Default">
+
+
+<!--[CDATA[ Third party scripts and code linked to or referenced from this website are licensed to you by the parties that own such code, not by Microsoft.  See ASP.NET Ajax CDN Terms of Use – http://www.asp.net/ajaxlibrary/CDN.ashx. ]]-->
+
+            
+            
+            
+            
+            
+
+
+
+
+
+
+<noscript>&lt;div&gt;&lt;img alt="DCSIMG" id="Img1" width="1" height="1" src="https://m.webtrends.com/dcsmgru7m99k7mqmgrhudo0k8_8c6m/njs.gif?dcsuri=/nojavascript&amp;amp;WT.js=No" /&gt;&lt;/div&gt;</noscript>
+
+
+
+
+
+
+
+
+
+<noscript>
+  &lt;a href="http://www.omniture.com" title="Web Analytics"&gt;
+    &lt;img src="//msstonojsmsdn.112.2o7.net/b/ss/msstonojsmsdn/1/H.20.2--NS/0" height="1" width="1" border="0" alt="" /&gt;
+  &lt;/a&gt;
+</noscript>
+            
+
+
+
+
+<div id="globalRequestVerification">
+    <input name="__RequestVerificationToken" type="hidden" value="eBpHIVhnEq-Hcp8Ogh1ElA6Wx7BILc6Uje3yidY8LcAUZe0R7A9QNLGqvnuxxQ3-tDrVI5DW_7MTXTyi0ujomNJ_hQ01">
+</div>
+
+
+        </div>
+
+        
+        
+        
+        
+    <script type="text/javascript" class="mtps-injected">
+/*<![CDATA[*/
+(function(window,document){"use strict";function preload(scripts){for(var result=[],script,e,i=0;i<scripts.length;i++)script=scripts[i],script.hasOwnProperty("url")&&(e=document.createElement("script"),e.src=script.url,script.throwaway=e),result.push(script);return result}function inject(scripts,index){var script,elem;if(index>=scripts.length){delete mtps.injectScripts;return}script=scripts[index];elem=document.createElement("script");elem.className="mtps-injected";elem.async=!1;var isLoaded=!1,timeoutId=0,injectNextFnName="",injectNext=elem.onerror=function(){isLoaded||(isLoaded=!0,inject(scripts,index+1),window.clearTimeout(timeoutId),elem.onload=elem.onerror=elem.onreadystatechange=null,injectNextFnName&&delete mtps[injectNextFnName],elem.removeEventListener&&elem.removeEventListener("load",injectNext,!1))};elem.addEventListener?elem.addEventListener("load",injectNext,!1):elem.readyState==="uninitialized"?elem.onreadystatechange=function(){(this.readyState==="loaded"||this.readyState==="complete")&&injectNext()}:elem.onload=injectNext;script.hasOwnProperty("url")?(timeoutId=window.setTimeout(injectNext,12e4),elem.src=script.url):(injectNextFnName="_injectNextScript_"+index,mtps[injectNextFnName]=injectNext,timeoutId=window.setTimeout(injectNext,2e3),elem.text="try {\n"+script.txt+"\n} finally { MTPS."+injectNextFnName+" && MTPS."+injectNextFnName+"(); }");parent.appendChild(elem)}var mtps=window.MTPS||(window.MTPS={}),parent=document.getElementsByTagName("head")[0];mtps.injectScripts=function(scripts){inject(preload(scripts),0)}})(window,document);
+MTPS.injectScripts([
+	{ txt: "/**/\r\n(window.MTPS || (window.MTPS = {})).cdnDomains || (window.MTPS.cdnDomains = { \r\n\t\"image\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"js\": \"https://i2-msdn.sec.s-msft.com\", \r\n\t\"css\": \"https://i-msdn.sec.s-msft.com\", \r\n\t\"xap\": \"https://msdn.microsoft.com\"\r\n});\r\n/**/" },
+	{ url: "https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.2.min.js" },
+	{ txt: "//\n  var literalNormalizedUrl = \u0027/en-us/library/hh855342(l=en-us,v=ieb.10).aspx\u0027;\n  var wt_nvr_ru = \u0027WT_NVR_RU\u0027;\n  var wt_fpcdom = \u0027.microsoft.com\u0027;\n  var wt_domlist = \u0027msdn.microsoft.com\u0027;\n  var wt_pathlist = \u0027\u0027;\n  var wt_paramlist = \u0027DCSext.mtps_devcenter\u0027;\n  var wt_siteid = \u0027MSDN\u0027;\n  var gDomain = \u0027m.webtrends.com\u0027;\n  var gDcsId = \u0027dcsmgru7m99k7mqmgrhudo0k8_8c6m\u0027;\n  var gFpc = \u0027WT_FPC\u0027;\n\n\n\n  if (document.cookie.indexOf(gFpc + \"=\") == -1) {\n    var wtidJs = document.createElement(\"script\");\n    wtidJs.src = \"//\" + gDomain + \"/\" + gDcsId + \"/wtid.js\";\n    document.getElementsByTagName(\"head\")[0].appendChild(wtidJs);\n  }\n\n\n\n  var detectedLocale = \u0027en-us\u0027;\n  var wtsp = \u0027msdnlib_devtools_lang\u0027;\n  var gTrackEvents = \u00270\u0027;\n/**/" },
+	{ txt: "/**/\n  var omni_guid = \"e95876f8-8637-4a28-b369-b22ddb8a6846\";\n/**/" },
+	{ txt: "//\n\n            window.appInsightsId = \u002760854590-027a-4ae4-98be-2741a40f355f\u0027;\n            //" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:Utilities,1:Layout,2:Header,1:Rating,2:Footer,0:Topic,3:webtrendsscript,4:omni_rsid_MSDN,5:WEDCS,0:AppInsightsPerf,6:Toc,1:SearchBox;/Areas/Epx/Content/Scripts:0,/Areas/Epx/Themes/Base/Content:1,/Areas/Centers/Themes/StandardDevCenter/Content:2,/Areas/Global/Content/Webtrends/resources:3,/Areas/Global/Content/Omniture/resources/MSDN:4,/Areas/Library/Themes/Base/Content:5,/Areas/Library/Content:6\u0026amp;hashKey=16C495B6737743669CA9553B9E94C533\u0026amp;v=560D5AF8E8BA81378A9BAD82A9CDCC77" },
+	{ url: "https://i1.services.social.microsoft.com/search/Widgets/SearchBox.jss?boxid=HeaderSearchTextBox\u0026btnid=HeaderSearchButton\u0026brand=Msdn\u0026loc=en-us\u0026focusOnInit=false\u0026emptyWatermark=true\u0026searchButtonTooltip=Search MSDN" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:PrintExportButton,1:NavigationResize;/Areas/Library/Themes/Base/Content:0,/Areas/Library/Content:1\u0026amp;hashKey=72684789A0F98A77C33C1AC3470E9ECF\u0026amp;v=560D5AF8E8BA81378A9BAD82A9CDCC77" },
+	{ txt: "MTPS = window.MTPS || {}; MTPS.LocalizedStrings = window.MTPS.LocalizedStrings || {}; MTPS.LocalizedStrings.ExpandButtonTooltip = \u0027Expand\u0027; MTPS.LocalizedStrings.CollapseButtonTooltip = \u0027Collapse\u0027; MTPS.LocalizedStrings.EnhancedExpandTooltip = \u0027Click to expand. Double-click to expand all.\u0027; MTPS.LocalizedStrings.EnhancedCollapseTooltip = \u0027Click to collapse. Double-click to collapse all.\u0027; MTPS.LocalizedStrings.ExpandAllButtonTooltip = \u0027Expand All\u0027; MTPS.LocalizedStrings.CollapseAllButtonTooltip = \u0027Collapse All\u0027;" },
+	{ url: "https://ajax.aspnetcdn.com/ajax/jquery.templates/beta1/jquery.tmpl.min.js" },
+	{ url: "https://i2-msdn.sec.s-msft.com/Combined.js?resources=0:CommunityContent,0:LibraryMemberFilter,1:Toc_Fixed,1:CodeSnippet,1:TopicNotInScope,1:CollapsibleArea,1:VersionSelector,1:SurveyBroker;/Areas/Library/Content:0,/Areas/Epx/Content/Scripts:1\u0026amp;hashKey=EB298C838117D9E7008C7CC11E7732E3\u0026amp;v=560D5AF8E8BA81378A9BAD82A9CDCC77" },
+	{ txt: "$(document).ready(function() {\n        try {\n            var token = $(\"#globalRequestVerification input[name=\u0027__RequestVerificationToken\u0027]\").clone();\n            $(\"#siteFeedbackForm\").append(token);\n        } catch(err) {\n            \n        }\n    });" }
+]);
+
+/*]]>*/
+</script>
+<script src="./J_files/broker-config.js"></script><div id="overlayMask"></div></body><style>#ads_c_tpc, .a_fl, .a_fr, .a_h, .a_mu, .a_pb, .a_pr, .a_pt, .ad_footerbanner, #ad_headerbanner, .ad_headerbanner, [id^="ad_thread"], .archiver_banne, .bm.a_c, .wp.a_f, #sitefocus.focus { display: none !important; }</style></html>
